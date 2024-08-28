@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+ <style>
+ body {
+      background-image: url(https://images.wallpapersden.com/image/download/tanjirou-kamado-poster_a21ra2qUmZqaraWkpJRmbmdlrWZlbWU.jpg);
+      background-attachment: fixed;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    form {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <form>
+<style>
+  form label {
+    color: white;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  label {
+    margin-bottom: 10px;
+  }
+</style>
+    <label for="firstName">Имя:</label>
+    <input type="text" id="firstName" name="firstName" required><br><br>
+    
+    <label for="lastName">Фамилия:</label>
+    <input type="text" id="lastName" name="lastName" required><br><br>
+    
+    <label for="middleName">Отчество:</label>
+    <input type="text" id="middleName" name="middleName" required><br><br>
+    
+    <label for="birthdate">Дата рождения (дд.мм.гг):</label>
+    <input type="text" id="birthdate" name="birthdate" pattern="\d{2}\.\d{2}\.\d{2}" required><br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="password">Пароль:</label>
+    <input type="password" id="password" name="password" required><br><br>
+    
+    <label for="confirmPassword">Подтвердите пароль:</label>
+    <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
+    
+    <input type="submit" value="Зарегистрироваться">
+  </form>
+</body>
+</html>

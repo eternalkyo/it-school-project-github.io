@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body {
+      background-image: url(https://images.wallpapersden.com/image/download/tanjirou-kamado-poster_a21ra2qUmZqaraWkpJRmbmdlrWZlbWU.jpg);
+      background-attachment: fixed;
+    }
+
+
+  <title>Страница входа</title>
+  <style>
+    body {
+      background-color: #333;
+    }
+    
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: white;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    label {
+      margin-bottom: 10px;
+    }
+    
+    input[type="submit"] {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <form action="process_login.php" method="POST">
+      <label for="username">Имя пользователя:</label>
+      <input type="text" id="username" name="username" required>
+      
+      <label for="password">Пароль:</label>
+      <input type="password" id="password" name="password" required>
+      
+      <input type="submit" value="Войти">
+ <button onclick="window.location.href = 'регистрация.html';">Регистрация</button> 
+    </form>
+  </div>
+</body>
+</html>
